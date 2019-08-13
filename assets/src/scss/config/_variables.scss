@@ -1,0 +1,66 @@
+
+/* Fonts */
+
+
+/* Primary Colors */
+$white: rgba(255,255,255,1.0);
+/* Shades of black */
+$black: rgba(0,0,0,1.0);
+$black_90: rgba(0,0,0,0.9);
+$black_75: rgba(0,0,0,0.75);
+$black_50: rgba(0,0,0,0.5);
+$black_10: rgba(0,0,0,0.1);
+
+/* Shades of tan #f7edd7 */
+$tan: rgba(247,237,214,1.0);
+$tan_90: rgba(247,237,214,0.9);
+$tan_75: rgba(247,237,214,0.75);
+$tan_50: rgba(247,237,214,0.5);
+$tan_10: rgba(247,237,214,0.1);
+/* Hilight and shadow of tan */
+$tan_hi: rgba(251,246,235,1.0); // Hilight, #FBF6EC
+$tan_shadow: rgba(242,227,192,1.0); // Shadow, #F2E3C1
+$tan_dshadow: rgba(230,198,130,1.0); // Deep Shadow, #E6C682
+
+/* Shades of orange #C19126 */
+$orange: rgba(193,145,38,1.0);
+$orange_90: rgba(193,145,38,0.9);
+$orange_75: rgba(193,145,38,0.75);
+$orange_50: rgba(193,145,38,0.5);
+$orange_10: rgba(193,145,38,0.1);
+/* Hilight and shadow of brown */
+$orange_hi: rgba(217,170,66,1.0); // Hilight, #D9AA42
+$orange_shadow: rgba(172,129,34,1.0); // Shadow, #AC8122
+
+/* Shades of brown #171104 */
+$brown: rgba(23,17,4,1.0);
+$brown_90: rgba(23,17,4,0.9);
+$brown_75: rgba(23,17,4,0.75);
+$brown_50: rgba(23,17,4,0.5);
+$brown_10: rgba(23,17,4,0.1);
+/* Hilight and shadow of brown */
+$brown_hi: rgba(45,33,8,1.0); // Hilight, #2D2108
+$brown_shadow: rgba(2,1,0,1.0); // Shadow, #020100
+
+/* Shades of blue #D7F1F7 */
+$blue: rgba(214,240,247,1.0);
+$blue_90: rgba(214,240,247,0.9);
+$blue_75: rgba(214,240,247,0.75);
+$blue_50: rgba(214,240,247,0.5);
+$blue_10: rgba(214,240,247,0.1);
+/* Hilight and shadow of blue */
+$blue_hi: rgba(236,248,251,1.0); // Hilight, #ECF8FB
+$blue_shadow: rgba(193,233,242,1.0); // Shadow, #C1E9F2
+
+/* Shades of purple #DDD7F7 */
+$purple: rgba(221,215,247,1.0);
+$purple_90: rgba(221,215,247,0.9);
+$purple_75: rgba(221,215,247,0.75);
+$purple_50: rgba(221,215,247,0.5);
+$purple_10: rgba(221,215,247,0.1);
+/* Hilight and shadow of purple */
+$purple_hi: rgba(239,236,251,1.0); // Hilight, #EFECFB
+$purple_shadow: rgba(202,193,242,1.0); // Shadow, #CAC1F2
+
+/* Category heights */
+$cat_height: 200px;

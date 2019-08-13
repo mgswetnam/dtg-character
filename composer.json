@@ -1,0 +1,29 @@
+{
+  "name": "DTG Character",
+  "description": "Plugin for creating role playing game characters.",
+  "type":"wordpress-plugin",
+  "minimum-stability" : "stable",
+  "authors": [
+      {
+          "name": "Matthew Swetnam",
+          "email": "matt@deadtreegames.com"
+      }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "extra": {
+  	"installer-paths": {
+      "../../plugins/{$name}/": [
+        "wpackagist-plugin/*",
+        "type:wordpress-plugin"
+      ]
+  	}
+	},
+  "require": {
+	  "wpackagist-plugin/timber-library": "0.22.*"
+  }
+}

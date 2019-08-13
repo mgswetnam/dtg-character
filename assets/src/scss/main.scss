@@ -1,0 +1,26 @@
+/*
+ * FOUNDATION
+ * Do not change the order of these imports.
+ */
+
+//@import 'vendor/vendor'; // Vendor (third-party styles only)
+@import 'config/config'; // Config (mixins, functions, and variables only)
+@import 'base';
+@import 'header';
+@import 'footer';
+/*@import '../../../modules/modules'; */
+
+/*
+ * MIDDLE STUFF
+ * You're free to rearrange these how you like.
+ */
+
+
+/*
+ * END STUFF
+ * That needs to be imported last.
+ */
+
+/*@media print {
+  @import 'print';
+}*/

@@ -1,0 +1,1 @@
+{"version":3,"sources":["_base.scss"],"names":[],"mappings":"AAAA;;GAEG","file":"main.min.css","sourcesContent":["/*!\n * Canadensis base styles\n */\n\nbody{\n\th1, h2, h3, h4, h5, h6{}\n\th1{}\n\th2{}\n\th3{}\n\th4{}\n\th5{}\n\th6{}\n\t\n}\n"]}

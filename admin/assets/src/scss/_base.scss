@@ -1,0 +1,132 @@
+body{
+  &.csa-client_page_csa-client-settings{
+    form[name="options"]{
+      table{
+        &.form-table{
+          tr{
+            >th{
+              padding:5px 10px 30px 0px;
+            }
+            >td{
+              display: table-row;
+              .csa-settings-wrapper,.csa-client-tooltip-wrapper,.csa-client-repeater-wrapper{
+                display: table-cell;
+              }
+              .csa-settings-wrapper{
+                .csa-field-admin{
+                  &.alternate-urls{
+                    display: inline-block;
+                    margin: 5px 0px;
+                    width: calc(100% - 25px);
+                  }
+                }
+                .csa-client-revoker-wrapper{
+                  display: inline-block;
+                  .csa-client-revoker-icon{
+                    min-width:20px;
+                    min-height: 20px;
+                    cursor: pointer;
+                    &:hover{
+                      color:red;
+                    }
+                  }
+                }
+              }
+              .csa-client-tooltip-wrapper{
+                position: relative;
+                .csa-client-tooltip-icon{
+                  min-width:20px;
+                  min-height: 20px;
+                  cursor: pointer;
+                }
+                .csa-client-tooltip{
+                  display:none;
+                  &.show-tip{
+                    display: block;
+                    position: absolute;
+                    width: 200px;
+                    left: 20px;
+                    top: 0px;
+                    background: $white;
+                    border: 1px solid $black;
+                    padding: 5px;
+                  }
+                }
+              }
+              .csa-client-repeater-wrapper{
+                .csa-client-repeater-icon{
+                  min-width:20px;
+                  min-height: 20px;
+                  cursor: pointer;
+                  &:hover{
+                    color:green;
+                  }
+                }
+              }
+              .csa-admin-field{
+                display: table-cell;
+                .csa-keyval{
+                  &.keyval-outter-wrapper{
+                    display: table;
+                    .keyval-label-wrapper,.keyval-container{
+                      display: table-row;
+                      .keyval-field,.keyval-repeater,.keyval-revoker{
+                        display: table-cell;
+                      }
+                      .keyval-repeater{
+                        .csa-client-keyval-repeater-icon{
+                          min-width:20px;
+                          min-height: 20px;
+                          cursor: pointer;
+                          &:hover{
+                            color:green;
+                          }
+                        }
+                      }
+                      .keyval-revoker{
+                        .csa-client-keyval-revoker-icon{
+                          min-width:20px;
+                          min-height: 20px;
+                          cursor: pointer;
+                          &:hover{
+                            color:red;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .csa-admin{
+    .csa-client-location,.csa-client-email,.csa-client-phone,.csa-client-dni{
+      .csa-button-bar{
+        padding:10px;
+        .btn{
+          min-width: 50px;
+          min-height: 30px;
+          background-color:$blue;
+          display: inline-block;
+          color:$white;
+          border-radius: 5px;
+          margin:10px;
+          padding:10px 10px 0px 10px;
+          cursor: pointer;
+          transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s;
+          &:hover{
+            background-color:$blue-hi;
+          }
+          &.add-location{}
+        }
+        .csa-list-body{
+          padding-right:1%;
+        }
+      }
+    }
+  }
+}
