@@ -37,10 +37,6 @@ require_once DTG_CHARACTER_PLUGIN_DIR . 'classes/class-dtg-character-core.php';
 require_once DTG_CHARACTER_PLUGIN_DIR . 'classes/class-dtg-character-cpts.php';
 require_once DTG_CHARACTER_PLUGIN_DIR . 'classes/class-dtg-character-metaboxes.php';
 require_once DTG_CHARACTER_PLUGIN_DIR . 'classes/class-dtg-character-base.php';
-require_once DTG_CHARACTER_PLUGIN_DIR . 'classes/class-dtg-character-location.php';
-require_once DTG_CHARACTER_PLUGIN_DIR . 'classes/class-dtg-character-phone.php';
-require_once DTG_CHARACTER_PLUGIN_DIR . 'classes/class-dtg-character-email.php';
-require_once DTG_CHARACTER_PLUGIN_DIR . 'classes/class-dtg-character-dni.php';
 require_once DTG_CHARACTER_PLUGIN_DIR . 'classes/class-dtg-character-shortcodes.php';
 if ( is_admin() ){
 	require_once DTG_CHARACTER_PLUGIN_DIR . 'admin/class-dtg-character-admin.php';
@@ -60,7 +56,7 @@ if ( is_admin() ){
 }
 
 // Disable admin bar
-show_admin_bar(false);
+show_admin_bar( false );
 
 class DTG_Character
 {
@@ -134,7 +130,7 @@ class DTG_Character
 	/**
 	 * Must never be called statically
 	 */
-	function plugin_upgrade(){
+	public function plugin_upgrade(){
 		return;
 	}
 
